@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Comment
 FROM openjdk:11-jdk-slim
 ARG JAR_FILE=target/*.jar
@@ -20,7 +20,7 @@ RUN echo 'we are running some # of cool things'
 
 # Avvia l'applicazione Spring Boot quando il contenitore Docker viene eseguito
 ##CMD ["java", "-jar", "app.jar"]
-=======
+
 
 # Use an official MySQL image as the base image
 FROM mysql:8.0
@@ -39,9 +39,3 @@ EXPOSE 3306 33060
 CMD ["mysqld"]
 
 
-#docker build -t myjpa .
-#docker build -t image_name .
-
-#RUN docker-compose up
-#docker build - < Dockerfile
->>>>>>> 5d3444820e9345f0729cf27f30499e40f2c1a6e0
