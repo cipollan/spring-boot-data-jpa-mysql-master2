@@ -24,7 +24,9 @@ public class SpringBootMyMagicApplication
 		log.info("+----------------------------------------------------------------+" );
 		
 		SpringApplication.run(SpringBootMyMagicApplication.class, args);
+		log.info("+---------xx----- <CacheManager studentInfo End> -----------------------+" );
 		log.info("+-------------- <CacheManager studentInfo End> -----------------------+" );
+	
 	}
  
 }
